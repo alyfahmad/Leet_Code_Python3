@@ -14,7 +14,7 @@ class Solution(object):
 
         print (s,t)
 
-        if t.find(s) != -1:
+        if t.find(s) != -1:  #
             return True
 
         return False
