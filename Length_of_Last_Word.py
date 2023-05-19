@@ -7,7 +7,7 @@ class Solution(object):
         string_length = len(s) - 1
         space_flag = False
         length = 0
-        for i in range (0, string_length):
+        for i in range (0, len(s)):
             if s[string_length] != ' ':
                 space_flag = True
                 length += 1
